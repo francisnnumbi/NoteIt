@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NoteIt</string> 
+
+	<string-array name="file_format">
+		<item>.html</item>
+		<item>.js</item>
+		<item>.css</item>
+		<item>.xml</item>
+		<item>.*</item>
+	</string-array>
+</resources>

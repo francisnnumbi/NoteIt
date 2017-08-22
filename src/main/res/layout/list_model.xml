@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+	<ImageView
+		android:id="@+id/list_modelImageView"
+		android:layout_height="match_parent"
+		android:layout_width="28dp"
+		android:src="@drawable/ic_noteit"/>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="file name"
+			android:layout_width="match_parent"
+			android:id="@+id/listmodelTextView1"
+			android:layout_alignParentTop="true"
+			style="@style/TextPrimary"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="25/06/2017"
+			android:layout_width="wrap_content"
+			android:layout_below="@+id/listmodelTextView1"
+			android:id="@+id/listmodelTextView2"
+			android:layout_toLeftOf="@+id/listmodelTextView3"
+			android:layout_alignParentLeft="true"
+			style="@style/TextSmall"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="12kb"
+			android:layout_width="wrap_content"
+			android:layout_below="@+id/listmodelTextView1"
+			android:layout_alignParentRight="true"
+			android:id="@+id/listmodelTextView3"
+			style="@style/TextSmall"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

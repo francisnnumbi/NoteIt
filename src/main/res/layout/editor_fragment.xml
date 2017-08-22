@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<ScrollView
+		android:layout_alignParentTop="true"
+		android:layout_above="@+id/editor_fragmentLinearLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:padding="5dp">
+
+		<include
+			layout="@layout/edittext_model"
+			android:id="@+id/note_et"/>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:id="@+id/editor_fragmentLinearLayout"
+		android:layout_alignParentBottom="true"
+		android:layout_height="30dp"
+		android:layout_width="match_parent"
+		android:background="?attr/colorPrimary">
+
+	</LinearLayout>
+
+</RelativeLayout>
+

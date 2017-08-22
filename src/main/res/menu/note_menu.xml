@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:title="Tamplate...">
+	<menu>
+		<item
+			android:id="@+id/na_html_basic"
+			android:title="Basic Html"/>
+		<item
+			android:id="@+id/na_html"
+			android:title="Html"/>
+		<item
+			android:id="@+id/na_html_advance"
+			android:title="Advanced Html"/>
+	</menu>
+	</item>
+    <item
+        android:id="@+id/na_save"
+				app:showAsAction="always"
+				android:icon="@drawable/ic_content_save"
+        android:title="Save"/>
+	<item
+		android:id="@+id/na_saveas"
+		android:title="Save As..."/>
+	<item
+		android:id="@+id/na_delete"
+		android:title="Delete"/>
+    
+</menu>

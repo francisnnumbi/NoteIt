@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Hello World</title>
+	<script type="text/javascript">
+		<!--
+
+		//-->
+	</script>
+	<style type="text/css">
+		body{
+			background:#b3b3b3;
+		}
+	</style>
+</head>
+<body>
+
+<h1>Universal Greeting</h1>
+
+<script type="text/javascript">
+<!--
+document.write("Hello world!");
+//-->
+</script>
+
+</body>
+</html>
